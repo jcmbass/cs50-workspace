@@ -1,0 +1,16 @@
+0.  an artificial long word said to mean a lung disease caused by inhaling very fine ash and sand dust.
+1.  in a nutshell it seems like the function measure the usage of resource and returns it in a struct form.
+2.  16 members
+3.  I will say it is pass by reference in order to optimize the amount of memory used in the stack
+4.  is actually quite simple, "fgetc" is a function tha reads the next character in a file, so the first for loop iterates reading each letter until the "End Of File" is reach. 
+    in the first condition "int c" must be alphabetical or \ with index more than 0 so it will append a character to word, if index is more than 45 letter it discard the word.
+    else if it discard words with digits
+    else if index is greater than 0 we found the end of the word and is time to do de magic.
+        first append a \0 at the end of the word, count of word increment, meassure usage of resource beford and after misspeled function, check time, index back to zero.
+    start again 
+5.  it will be imposible to discard words that contains digits
+6.  becouse two members of struct rusage (ru_utime, ru_stime) are of type struct timeval wich are const values.
+7.  I used a trie, that handels 27 nodes for the alphabet and the apostrofie and a bool to know if is a word.
+8.  Very slow, like 0.30 is total time.
+9.  I change the way the function load creates a new node by creating my own function called getNode
+10. yes, particalrly in the load function where I have to iterate over the length of simillar words to be able to place new nodes at the end of the trie

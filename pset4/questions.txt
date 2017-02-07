@@ -1,0 +1,19 @@
+0.  BMP, JPEG and PNG images support a palet up to 16,7 millions colors. But each 8 bit GIF image only support 258 colors.
+1.  GIF
+2.  lossy compression means that information is going to be sacrifice in order to reduce the file size; at the other hand lossless compression do not sacrifice information.
+3.  JPEG
+4.  The filename first charapter at the file's directory entry is modified to signal that the file has been deleted. Then it clusters are marked as free so it can be recycled but the actual file data is never touched
+5.  sanitize the disk by overwriting all the addressable location with a random character or destroy the divice.
+6.  header file in the C standar library. It provides a set of typedefs.
+7.  to have typedefs with specific minimun and maximun limits. 
+8.  1, 4, 4, 2.
+9.  ASCII: 'BM'.
+10. bfSize is the size in bytes of the bitmap life, while biSize is the number of bytes required by the structure.
+11. the bitmap is a top-down DIB and its origin is the upper-left corner.
+12. biBitCount
+13. it might be because you lack permission to write in a specific directory. 
+14. in order to read 1 element of data of size (BITMAPFILEHEADER) and 1 element of size(BITMAPINFOHEADER)  
+15. 3
+16. sets a new position indicator for inptr in bytes by adding padding to the current position.
+17. Current position indicator.
+18. RickRoll'D
