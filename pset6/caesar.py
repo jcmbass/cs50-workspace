@@ -1,6 +1,12 @@
 import cs50
 
-if self.arg != 2:
-	print("YELL")
-
-
+def main():
+    if self.arg != 2:
+	    print("YELL")
+    
+    else:
+        k = cs50.atoi(arg)
+        s = cs50.get_string()
+        
+if __name__=="__main__":
+    main()
